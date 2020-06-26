@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="intro">Please enter your name, click on a button that reflects how you feel today, and click the timer button to enjoy the tranquility.</p>
+    <input type="text" id="name-please" placeholder="Enter name">
+
+    
+    <button id="sad" class="emo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR98HWjP3JNzqrwVNsqwbUC1USvHft-4FIvgA&usqp=CAU"></button>
+    <button id="happy" class="emo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQowHOayhOTomzcZBW-red9_uwq7qK3ILLHSA&usqp=CAU"></button>
+    
+    <div id="timeButtons">
+    <button id="twenty"> 20 seconds </button>
+    <button id="forty"> 40 seconds </button>
+    <button id="sixty"> 60 seconds </button>
+    </div>
+    <div>
+    <p class="namePara">
+    </p>  
+    </div>
+
+    <p id="timer"></p> 
+
+    <div id="vid1">
+    <video id="myVideo" controls autoplay>
+      <source src="https://www.w3schools.com/tags/mov_bbb.mp4" type="video/mp4" id="happyVid">
+      <!--source src="mov_bbb.ogg" type="video/ogg"-->
+    </video>
+    </div>
+    <div id="vid2">
+    <video id="myVideo2" controls autoplay>
+    <source src="https://www.w3schools.com/jsref/movie.mp4" type="video/mp4">
+    </video>
+    </div>
+    
+    
+  
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="mainclass.js"></script>
+  </body>
+</html>
